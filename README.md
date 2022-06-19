@@ -13,7 +13,7 @@ fisher hyakt/fish-fzf
 ## Usage
 Bind your favorite key.
 
-If you'd like to bind r
+If you'd like to bind Ctrl-R
 
 ```fish
 function fish_user_key_bindings
