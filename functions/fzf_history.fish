@@ -1,5 +1,5 @@
 function fzf_history
-  history | fzf --layout default | read foo
+  history | fzf --layout default --no-sort | read foo
 
   if [ $foo ]
     commandline $foo
